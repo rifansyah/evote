@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        tools:context=".VoteActivity">
+
+    <ScrollView
+            android:id="@+id/mainView"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/logo_ugm"/>
+
+                <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/logo"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                <LinearLayout
+                        android:id="@+id/calon_1"
+                        android:layout_width="0dp"
+                        android:layout_margin="8dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/photo_profile_1"
+                            android:layout_width="96dp"
+                            android:layout_height="96dp"
+                            android:src="#70000000"/>
+
+                    <TextView
+                            android:id="@+id/name_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Nama Calon 1"
+                            android:textSize="14sp"
+                            android:gravity="center"
+                            android:background="@drawable/background_layout_calon"/>
+
+                    <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/background_layout_calon">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Visi &amp; Misi"
+                                android:textColor="@color/colorPrimary"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="8dp"
+                                android:textSize="18sp"/>
+
+                        <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#50000000"/>
+
+                        <TextView
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="Visi"/>
+
+                        <TextView
+                                android:id="@+id/visi_1"
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Visi"/>
+
+                        <TextView
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="Misi"/>
+
+                        <TextView
+                                android:id="@+id/misi_1"
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Visi"/>
+
+                    </LinearLayout>
+
+                    <Button
+                            android:id="@+id/vote_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/background_edit_text_login"
+                            android:backgroundTint="@color/colorAccent"
+                            android:text="Vote"
+                            android:textAllCaps="false"
+                            android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/calon_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/photo_profile_2"
+                            android:layout_width="96dp"
+                            android:layout_height="96dp"
+                            android:src="#70000000"/>
+
+                    <TextView
+                            android:id="@+id/name_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Nama Calon 1"
+                            android:textSize="14sp"
+                            android:gravity="center"
+                            android:background="@drawable/background_layout_calon"/>
+
+                    <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/background_layout_calon">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Visi &amp; Misi"
+                                android:textColor="@color/colorPrimary"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="8dp"
+                                android:textSize="18sp"/>
+
+                        <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#50000000"/>
+
+                        <TextView
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="Visi"/>
+
+                        <TextView
+                                android:id="@+id/visi_2"
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Visi"/>
+
+                        <TextView
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="Misi"/>
+
+                        <TextView
+                                android:id="@+id/misi_2"
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Visi"/>
+
+                    </LinearLayout>
+
+                    <Button
+                            android:id="@+id/vote_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/background_edit_text_login"
+                            android:backgroundTint="@color/colorAccent"
+                            android:text="Vote"
+                            android:textAllCaps="false"
+                            android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/calon_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:visibility="gone"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/photo_profile_3"
+                            android:layout_width="96dp"
+                            android:layout_height="96dp"
+                            android:src="#70000000"/>
+
+                    <TextView
+                            android:id="@+id/name_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Nama Calon 1"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:background="@drawable/background_layout_calon"/>
+
+                    <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@drawable/background_layout_calon">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Visi &amp; Misi"
+                                android:textColor="@color/colorPrimary"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="8dp"
+                                android:textSize="18sp"/>
+
+                        <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#50000000"/>
+
+                        <TextView
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="Visi"/>
+
+                        <TextView
+                                android:id="@+id/visi_3"
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Visi"/>
+
+                        <TextView
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="Misi"/>
+
+                        <TextView
+                                android:id="@+id/misi_3"
+                                android:layout_marginTop="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Visi"/>
+
+                    </LinearLayout>
+
+                    <Button
+                            android:id="@+id/vote_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/background_edit_text_login"
+                            android:backgroundTint="@color/colorAccent"
+                            android:text="Vote"
+                            android:textAllCaps="false"
+                            android:textColor="#fff" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+            android:id="@+id/vote_limit"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kamu sudah melakukan vote"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:textSize="28sp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+            android:visibility="gone"
+            android:id="@+id/vote_confirmation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Berhasil melakukan vote"
+                    android:textColor="#fff"
+                    android:textSize="28sp"/>
+
+            <Button
+                    android:id="@+id/vote_finish"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/background_edit_text_login"
+                    android:backgroundTint="@color/colorAccent"
+                    android:text="Kembali"
+                    android:textAllCaps="false"
+                    android:textColor="#fff" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@+id/vote_presma"
+                    app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

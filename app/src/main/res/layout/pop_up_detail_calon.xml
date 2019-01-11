@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:layout_gravity="center">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:id="@+id/calon_pop_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="32dp"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/photo_profile_pop_up"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="#70000000"/>
+
+            <TextView
+                    android:id="@+id/name_pop_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Nama Calon 1"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:background="@drawable/background_layout_calon"/>
+
+            <LinearLayout
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/background_layout_calon">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detail"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="8dp"
+                        android:textSize="18sp"/>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#50000000"/>
+
+                <TextView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Visi"/>
+
+                <TextView
+                        android:id="@+id/visi_pop_up"
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="Visi"/>
+
+                <TextView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Misi"/>
+
+                <TextView
+                        android:id="@+id/misi_pop_up"
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="Visi"/>
+
+                <TextView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Pengalaman Organisasi"/>
+
+                <TextView
+                        android:id="@+id/organisasi_pop_up"
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="Visi"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

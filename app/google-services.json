@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "343147718059",
+    "firebase_url": "https://evote-bem.firebaseio.com",
+    "project_id": "evote-bem",
+    "storage_bucket": "evote-bem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343147718059:android:80cafea232bde192",
+        "android_client_info": {
+          "package_name": "com.dev.reef.evote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343147718059-512014rh39pakihi21deb06usldgadqi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.reef.evote",
+            "certificate_hash": "b0f18919f17c1bc801b773c2b57957ad20ce210f"
+          }
+        },
+        {
+          "client_id": "343147718059-3vn7p20783t4aen4jcfm1fuor2sggmsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAKPGe0o75dBF60epZt9ABaae8ScLvVkA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343147718059-3vn7p20783t4aen4jcfm1fuor2sggmsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

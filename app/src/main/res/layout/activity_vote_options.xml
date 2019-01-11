@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        tools:context=".VoteOptionsActivity">
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/mainView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vote untuk :"
+                android:textSize="30sp"
+                android:textColor="#fff" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="32dp" app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+                android:id="@+id/vote_presma"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="20sp"
+                android:background="@drawable/background_edit_text_login"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Calon Presma"
+                android:textAllCaps="false"
+                android:textColor="#fff" app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/vote_senat"/>
+
+        <Button
+                android:id="@+id/vote_senat"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:background="@drawable/background_edit_text_login"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Calon\nSenat"
+                android:textAllCaps="false"
+                android:textColor="#fff" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@+id/vote_presma"
+                app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <FrameLayout
+            android:visibility="gone"
+            android:elevation="10dp"
+            android:id="@+id/vote_time_limit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back">
+
+        <TextView
+                android:id="@+id/vote_time_limit_text"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="28sp"/>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
